@@ -19,11 +19,10 @@ export function Steps() {
         description="Escaneie o código no estabelecimento para usar o benefício"
       />
       <Step
-      icon={IconTicket}
+        icon={IconTicket}
         title="Garanta vantagens perto de você"
         description="Ativo cupons onde estiver, em diferentes tipos de estabelecimento"
       />
-
     </View>
   );
 }
