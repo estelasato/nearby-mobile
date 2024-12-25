@@ -14,7 +14,7 @@ export function Places({ data }: Props) {
 
   const snapPoints = {
     min: 270,
-    max: dimensions.height - 128,
+    max: Math.max(270, dimensions.height - 128),
   };
 
   return (
